@@ -30,6 +30,10 @@
   .container {
     max-width: 1024px;
   }
+  section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
   /** HEADER **/
   .header__container {
     flex-direction: column;
@@ -49,6 +53,7 @@
     text-align: center;
     align-items: center;
   }
+  
 
 }
 
@@ -114,5 +119,10 @@
   }
   .aboutMe__content--container {
     border-radius: 2rem;
+  }
+
+  /* footer */
+  footer{
+    padding: 0;
   }
 }
